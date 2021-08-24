@@ -301,7 +301,7 @@ def menu():
         loginvia()
     os.system('clear')
     print logo
-    tok = open('/sdcard/.malik.txt', 'r').read()
+    tok = open('/sdcard/.fariya.txt', 'r').read()
     print("\t  \033[1;92m[+] Logged User : "+name)
     print ' '
     print("\033[0;96m──────────────────────────────────────────────────")
