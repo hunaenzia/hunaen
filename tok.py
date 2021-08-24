@@ -169,7 +169,7 @@ def loginvia():
     print("\033[0;97m [2] Login Via User And Pass")
     print("\033[0;97m [3] Get Access-Token")
     print("\033[0;97m [4] Tech Fari Youtube Channel")
-    print("\033[0;97m [0]Back")
+    print("\033[0;97m [0] Back")
     print ' '
     clone_loginvia()
 def clone_loginvia():
