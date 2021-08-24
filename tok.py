@@ -61,7 +61,6 @@ logo = """
 def reg():
     os.system('clear')
     print logo
-    print ''
     print '\t\033[1;97m Enjoy Free Cloning'
     print ''
     time.sleep(1)
