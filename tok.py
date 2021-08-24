@@ -62,7 +62,7 @@ def reg():
     os.system('clear')
     print logo
     print ''
-    print '\033[1;97m Enjoy Free Cloning'
+    print '\t\033[1;97m Enjoy Free Cloning'
     print ''
     time.sleep(1)
     try:
@@ -83,9 +83,9 @@ def reg():
         print logo
         print '\t\033[1;97mApproved Failed'
         print ' '
-        print ' \x1b[1;92mYour Id Is Not Approved Already '
-        print ' \x1b[1;92mCopy the id and send to admin'
-        print ' \x1b[1;92mYour id: ' + to
+        print ' \x1b[1;97mYour Id Is Not Approved Already '
+        print ' \x1b[1;97mCopy The Id And Send To Admin'
+        print ' \033[1;97mYour id:\033[1;92m ' + to
         raw_input('\x1b[1;93m Press enter to send id')
         os.system('xdg-open https://www.facebook.com/Faritricker007')
         reg()
@@ -145,19 +145,19 @@ def jalan(z):
 def logging():
     titik = [".   ","..  ","... "]
     for o in titik:
-        print("\r\033[1;32m[+] Logging In\033[0;97m "+o),;sys.stdout.flush();time.sleep(1)
+        print("\r\033[1;32m[!] Logging In\033[0;97m "+o),;sys.stdout.flush();time.sleep(1)
 def saving():
     titik = [".   ","..  ","... "]
     for o in titik:
-        print("\r\033[1;32m[+] Tool Saving Token\033[0;97m "+o),;sys.stdout.flush();time.sleep(1)
+        print("\r\033[1;32m[!] Tool Saving Your Token\033[0;97m "+o),;sys.stdout.flush();time.sleep(1)
 def updateing():
     titik = [".   ","..  ","... "]
     for o in titik:
-        print("\r\033[1;32m[+] Getting Updates\033[0;97m "+o),;sys.stdout.flush();time.sleep(1)
+        print("\r\033[1;32m[!] Getting Updates\033[0;97m "+o),;sys.stdout.flush();time.sleep(1)
 def logout():
     titik = [".   ","..  ","... "]
     for o in titik:
-        print("\r\033[1;32m[+] Logging Out\033[0;97m "+o),;sys.stdout.flush();time.sleep(1)
+        print("\r\033[1;32m[!] Logging Out\033[0;97m "+o),;sys.stdout.flush();time.sleep(1)
 		
 
 idh = []
